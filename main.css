@@ -1,0 +1,123 @@
+body {
+    background-color: black;
+    height: 2000px;
+}
+.navbar ul{
+    list-style-type: none;
+}
+.navbar {
+    background-color: #222222;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 2000px;
+    height: 81px;
+}
+.navbar ul li img {
+    position: absolute;
+    top: 2px;
+    left: 63px;
+    height: 78px ;
+    width: 118px;
+}
+.navbar ul li button{
+    position: absolute;
+    right: 169px;
+    top: 16px;
+    background-color: #222222; 
+    border: 2px solid #ff3366;
+    border-radius: 30px;
+    color: #ff3366;
+    padding: 12px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    letter-spacing: 6px ;
+    transition: color 0.5s , background 0.5s ;
+}
+.navbar ul li button:hover{
+    color: #fff;
+    background-color: #ff3366;
+}
+.sidebar ul{
+    list-style-type:  none;
+}
+.sidebar {
+    background-color:#222222 ;
+    border: 1px solid  #5a5a5a;
+    position: fixed;
+    top: 265px;
+    left: 0px;
+    width: 340px;
+    height:390px;
+}
+.sidebar ul li button{
+    position: absolute;
+    background-color: #222222; 
+    border: 2px solid #ff3366;
+    border-radius: 30px;
+    color: #ff3366;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    letter-spacing: 6px ;
+    transition: color 0.5s , background 0.5s ;
+}
+.button1{
+    top: 66px;
+    left: -25px;
+    padding: 15px 39px;
+}
+.button2{
+    top: 151px;
+    left: -25px;
+    padding: 15px 32px;
+}
+.sidebar ul li button:hover{
+    color: #fff;
+    background-color: #222222;
+    border: 1px solid black;
+}
+ .sidebarr {
+    background-color:#222222 ;
+    border: 1px solid  #5a5a5a;
+    position: fixed;
+    top: 265px;
+    right: 0px;
+    width: 340px;
+    height:390px;
+    
+} 
+.sidebarr table {
+    position: absolute;
+    right: 8px;
+    top: 12px;
+    font-size: 20px;
+    color: #ff3366;
+}
+.fas {
+    position: absolute;
+    right: 150px;
+    top: 360px;
+    font-size: 20px;
+
+}
+
+}.body select option{
+    position: absolute;
+    background-color: #222222; 
+    border: 2px solid #222222;
+    border-radius: 10px;
+    color: white;
+    padding: 6px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    top: 16px;
+    left: -95px;
+    font-size: arial;
+}
+
